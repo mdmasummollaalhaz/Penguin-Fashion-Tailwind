@@ -31,11 +31,49 @@
     <!-- ---------------------------------------
         Header code start from here
     ---------------------------------------- -->
-        <header class="bg-penguin pt-20 pb-40">
-            <section class="container mx-auto sm:flex items-center justify-around">
+        <header class="bg-penguin pt-3 pb-40">
+
+        <!-- NavBar start -->
+            <nav class="bg-grey-darkest p-2 mt-0 fixed w-full z-10 pin-t">
+                <div class="container mx-auto flex flex-wrap items-center">
+                    <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+                        <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+                            <img class="w-80" src="assets/img/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+                        <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+                            <li class="mr-3">
+                                <a class="inline-block py-2 px-4 no-underline" href="#">Home</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" href="#">Product</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" href="#">About us</a>
+                            </li>
+                                <li class="mr-3">
+                                <a class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" href="#">Contact us</a>
+                            </li>
+                            </li>
+                                <li class="mr-3">
+                                <a class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" href="#">
+                                    <button class="uppercase bg-[#a4bc46] py-2 px-5 rounded-md text-white font-semibold">
+                                        Account
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- END of NavBar -->
+
+            <section class="container mx-auto sm:flex items-center justify-around mt-20">
                 <div class="space-y-5 content w-9/12">
-                    <h1 class="text-2xl sm:text-5xl uppercase font-semibold w-64 space-y-3">
+                    <h1 class="text-2xl sm:text-5xl uppercase font-semibold space-y-3">
                         <span class="text-yellow-400">Be the Penguins</span>
+                        <br>
                         <span>of Winter</span>
                     </h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, eos.</p>
